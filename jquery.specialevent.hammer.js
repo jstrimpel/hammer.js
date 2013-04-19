@@ -15,7 +15,7 @@
                 var $target = $(this),
                     hammer;
 
-                if (!$target.hammer) {
+                if (!$target.hammerjs) {
                     $target.data('hammerjs', new Hammer(this, data));
                 }
 
